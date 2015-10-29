@@ -1,0 +1,66 @@
+﻿/*////// RESET STYLES //////*/
+body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+table{border-collapse:collapse;}
+img, a img{border:0; outline:none; text-decoration:none;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+p{margin: 1em 0;}
+
+/*////// CLIENT-SPECIFIC STYLES //////*/
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+#outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+
+/*////// FRAMEWORK STYLES //////*/
+.flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+.flexibleContainerCellRight{padding-top:20px; padding-Right:20px; padding-bottom:20px;}
+.flexibleContainerCellLeft{padding-top:20px; padding-left:20px; padding-bottom:20px;}
+.flexibleImage{height:auto; width: 100%; max-width: 100%; display:block;}
+.bottomShim, .campaignImagesCell {padding-bottom:20px;}
+.imageContent, .imageContentLast{padding-bottom:20px;}
+.nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+.verticalSpacer{font-size:1px; line-height:1px; mso-line-height-rule: exactly;}
+
+/*////// GENERAL STYLES //////*/
+body, #bodyTable{background-color:#F6F5F4; font-family:arial, sans-serif; font-size:12px; }
+#bodyCell{padding-top:20px; padding-bottom:0;}
+#header{color: #ffffff;}
+#header h1{color: #ffffff;}
+#header p {color: #ffffff; text-align: left;}
+.logo{display:block; border:none; outline:none; text-decoration:none;}
+#mainMenu{text-align:center; font-family: arial, sans-serif; font-size: 15px; color: #aaaaaa;}
+#mainMenu a, #footerRow a{color: #243741; text-decoration:none; white-space:nowrap; font-size: 13px;}
+#preHeader {padding: 10px;}
+#preHeader, #preHeader a {font-family: arial, sans-serif; font-size: 12px; color: #243741; text-decoration:none;}
+#preFooter {padding: 10px 0; border-top:0px solid #004b8d;}
+#preFooter, #preFooter a {font-family: arial, sans-serif; font-size: 13px; color: #ffffff; text-decoration:none;}
+/*#emailBody{background-color:#FFFFFF; border:1px solid #DDDDDD; border-collapse:separate; border-radius:4px;}*/
+.flexibleCard{background-color:#FFFFFF; border-left:1px solid #E6E5E4; border-right:1px solid #E6E5E4; border-bottom:2px solid #E6E5E4; border-collapse:separate;}
+.flexibleCardCell{padding-bottom:20px;}
+.imageTopCell{border-top:4px solid #004b8d;}
+.imageLink{text-decoration: none; outline: none;}
+h1, h2, h3, h4, h5, h6, .title1{color:#004b8d; font-family:arial, sans-serif; font-size:22px; line-height:24px; text-align:Left;}
+#titleCell{font-family:arial, sans-serif; font-size:22px; line-height:24px; text-align:Left; font-weight: bold;}
+.title2{color:#004b8d; font-family:arial, sans-serif; font-size:16px; line-height:20px; text-align:Left; font-weight:bold;}
+.title1 a, .title2 a{color:#004b8d; text-decoration:none;}
+.subject {color: #FFFFFF; background:#004b8d; padding:10px 20px; font-family:arial, sans-serif; font-size:12px; line-height:20px; text-align:Left; font-weight:bold;}
+.textContent, .textContentLast{color:#404040; font-family:arial, sans-serif; font-size:12px; line-height:20px; text-align:Left;}
+.textContent a, .textContentLast a{color:#13548d; text-decoration:underline;}
+.nestedContainer{background-color:#E5E5E5; border:1px solid #CCCCCC;}
+.emailButton{background-color:#004b8d; border-collapse:separate; border-radius:4px;}
+.buttonContent{color:#FFFFFF; font-family:arial, sans-serif; font-size:12px; font-weight:bold; line-height:100%; padding:10px 20px; text-align:center;}
+.buttonContent a{color:#FFFFFF; display:block; text-decoration:none;}
+.emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
+.emailCalendarMonth{background-color:#2C9AB7; color:#FFFFFF; font-family:arial, sans-serif, Arial, sans-serif; font-size:16px; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:center;}
+.emailCalendarDay{color:#2C9AB7; font-family:arial, sans-serif, Arial, sans-serif; font-size:60px; font-weight:bold; line-height:100%; padding-top:20px; padding-bottom:20px; text-align:center;}
+.headerFooterCell {padding-top:12px; padding-bottom:12px;}
+#footerCell.headerFooterCell {padding-top:20px; padding-bottom:20px;}
+.headerFooterCell, .headerFooterCell a {font-family: arial, sans-serif; font-size: 12px;color: #ffffff; text-decoration:none;}
+.headerCorp {padding: 12px 10px;}
+.linksList td {padding: 6px 0;}
+.linksList img {display:block;}
+.linksList tr:last-child td {padding: 6px 0 0 0;}
+.leftBorderCell {border-left:4px solid #004b8d;}
+.address {font-size: 11px; color: #eeeeee;}
